@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Homepage | Lightworkersie</title>
+    <!--=============== Global Css Start ===============-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/select2/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap_select2/css/select2-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/wow/css/animate.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
+    <!--=============== Global Css End ===============-->
+    <!--=============== Custom Css Start ===============-->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--=============== Custom Css End ===============-->
+</head>
+<body>
+<!--=============== Preloader Section Start ===============-->
+<div class="preloader" style="position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  backface-visibility: hidden;
+  background: #ffffff;">
+    <div class="preloader-image" style="position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -150px 0 0 -300px;">
+        <img src="images/preloader.gif" alt="loader-missing">
+    </div>
+</div>
+<!--=============== Preloader Section End ===============-->
+<!--=============== Header Section Start ===============-->
+<section class="backgroundclr">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-sm-10 tpbanner_align">
+                <a href="#" class="header_border1 hidden-lg font10">Home</a>
+                <div class="header_border hidden-lg font10">Blog
+                    <ul>
+                        <li class="dropdown lang_dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Latest Entries <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Emotional Wellness</a></li>
+                                <li><a href="#">Holistic Healing</a></li>
+                                <li><a href="#">Cannabis Health</a></li>
+                                <li><a href="#">All Topic Entries</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-xs-block"></div>
+                <span class="header_border header_text hidden-xs font12">Follow Us</span>
+                <span class="head_icons"><a href="#"><i class="fa fa-facebook-square header_icons fa-lg"></i></a>
+                      <a href="#"><i class="fa fa-twitter-square header_icons fa-lg"></i></a>
+                      <a href="#"><i class="fa fa-google-plus-square header_icons fa-lg" aria-hidden="true"></i></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="row text-right">
+        <div class="col-md-5 col-sm-2"></div>
+        <div class="col-md-7 col-sm-10 col-xs-12">
+            <div class="clearfix visible-sm-block"></div>
+            <div class="row">
+                <div class="col-sm-2 col-xs-2 head_signs">
+                    <a href="astrology_button.png">
+                        <div class="bg-info header_bg center-block">
+                            <img src="astrology_button.png" alt="Astrology">
+                        </div>
+                        <div class="text-center info1 font13 hidden-xs">Astrology</div>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-xs-2 text-center head_signs">
+                    <a href="appointment.html">
+                        <div class="bg-info header_bg center-block">
+                            <img src="crystals_button.png" alt="Image missing">
+                        </div>
+                        <div class="text-center info1 font13 hidden-xs">Crystals</div>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-xs-2 text-center head_signs">
+                    <a href="#">
+                        <div class="bg-info header_bg center-block">
+                            <img src="moon_button.png" alt="Image missing">
+                        </div>
+                        <div class="text-center info1 font13 hidden-xs">Moon Phases</div>
+                    </a>
+                </div>
+
+                <div class="col-sm-2 col-xs-2 text-center head_signs">
+                    <a href="#">
+                        <div class="bg-info header_bg center-block">
+                            <img src="mindfulness_button.png" alt="Image missing">
+                        </div>
+                        <div class="text-center info1 font13 hidden-xs">Mindfulness</div>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-xs-2 text-center head_signs">
+                    <a href="#">
+                        <div class="bg-info header_bg center-block">
+                            <img src="meditation_button.png" alt="Image missing">
+                        </div>
+                        <div class="text-center info1 font13 hidden-xs">Meditation</div>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-xs-2 text-center head_signs">
+                    <a href="#">
+                        <div class="bg-info header_bg center-block">
+                            <img src="tarot_button.png" alt="Image missing">
+                        </div>
+                        <div class="text-center info1 font13 hidden-xs">Tarot</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header col-md-4 col-sm-5 col-xs-12 nav_head">
+                    <button type="button" class="navbar-toggle m-t-20 font18" data-toggle="collapse"
+                            data-target="#myNavbar">
+                        <span>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <a href="index.html">
+                        <img src="lightwork_button.png" alt="logo missing" class="brand_name"> <span
+                            class="text-info font42">Lightworkersie</span>
+                    </a>
+                    <p class="brand_name text-primary font32 head_info">created by Laura Eisland</p>
+
+                </div>
+                <div class="navbar-collapse collapse col-md-8 col-sm-7 col-xs-12 nav navbar-right nav_menubar"
+                     id="myNavbar">
+                    <ul class="nav navbar-nav header_nav">
+                        <li class="header_li active">
+                            <a href="index.html" class="text-info">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="header_li">
+                            <a href="signs.html" class="text-info">Universal Laws</a>
+                        </li>
+                        <li class="header_li">
+                            <a href="gemstones.html" class="text-info">Numerology</a>
+                        </li>
+
+                        <li class="header_li">
+                            <a href="love_compatibility.html" class="text-info"><i class="fa fa-heart"></i>Zodiac Match</a>
+                        </li>
+                        <li class="header_li">
+                            <a href="games.html" class="text-info">About</a>
+                        </li>
+                        <li class="header_li">
+                            <a href="blog.html" class="text-info">Blog</a>
+                        </li>
+                        <li class="dropdown dropdown_modified">
+                            <a data-toggle="dropdown" href="#" class="text-info dropdown-toggle">Pages <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu dropdown_mod" data-dropdown-in="fadeInUp"
+                                data-dropdown-out="fadeOut">
+                                <li><a href="index2.html">Emotional Wellness</a></li>
+                                <li><a href="blog_single.html">Holistic Healing</a></li>
+                                <li><a href="blog_category.html">Health & Cannabis</a></li>
+                                <li><a href="signs_single_post.html">Breaking Stigmas</a></li>
+                                <li><a href="gemstones_single.html">Affirmations</a></li>
+                                <li><a href="love_compatibility_result.html">Spirit Guides & Angels</a></li>
+                                <li><a href="elements.html">Aromatherapy</a></li>
+                                <li><a href="elements.html">Self-Love</a></li>
+                                <li><a href="elements.html">Empaths</a></li>
+                                <li><a href="elements.html">Lightwork</a></li>
+                                <li><a href="elements.html">Overcoming Trauma</a></li>
+                                <li><a href="elements.html">Chakra Balancing</a></li>
+                                <li><a href="elements.html">Feung Shui</a></li>
+                                <li><a href="elements.html">Intention Setting</a></li>
+                                <li><a href="elements.html">Lucid Dreaming</a></li>
+                                <li><a href="elements.html">Akashic Records</a></li>
+                                <li><a href="elements.html">Auras</a></li>
+                                <li><a href="elements.html">Ancient Symbols</a></li>
+                                <li><a href="elements.html">Energy Healing</a></li>
+                                <li><a href="elements.html">Reiki</a></li>
+                                <li><a href="elements.html">Oracle Cards & Tarot Reading</a></li>
+                                <li><a href="elements.html">Gratitude</a></li>
+                                <li><a href="elements.html">Self-Empowerment</a></li>
+                                <li><a href="elements.html">Shadow Work</a></li>
+                                <li><a href="elements.html">Spiritual Development</a></li>
+                                <li><a href="elements.html">Clair Senses</a></li>
+                                <li><a href="elements.html">Yoga</a></li>
+                                <li><a href="elements.html">Past-Life Regression</a></li>
+                                <li><a href="elements.html">Spiritual Life Coaching</a></li>
+                                <li><a href="elements.html">Hypnotherapy</a></li>
+                                <li><a href="elements.html">Astral Projection</a></li>
+                                <li><a href="elements.html">Channeling</a></li>
+                                <li><a href="elements.html">Spirit Animals</a></li>
+                            </ul>
+                        </li>
+                        <li class="header_li">
+                            <a href="contact_us.html" class="text-info">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--=============== Header Section End ===============-->
+<!--=============== Body Section Start ===============-->
+
+<section class="home_bg">
+    <div class="container">
+        <div class="row home_alignment">
+            <div class="col-md-12 text-center">
+                <div class="bg-white button_margin pic_margin">
+                    <h1 class="text-primary font35 home_padding">Welcome!</h1>
+                    <div class="home_head center-block"></div>
+                    <p class="elements_desc">Hi, my name is Laura Eislyn. I am an anonymous blogger, Spiritual Warrior, Empath, Lightworker and aspiring Hypnotherapy-Focused Life Coach. Having spent the majority of my career in the mental health industry, I was inspired create this blog with the intention of continuing to help others and prevent anyone else from experiencing similar struggles that I, myself, have overcome.  My knowledge, experience and passion for advocacy is an inspiration within a universal higher purpose - particularly during this era of (primarily) virtual human interactions and social distancing. The 2020 COVID-19 pandemic has revealed our desperate need for reducing the stigmas of mental illness, holistic medicine, and cannabis legislation. All topics within this blog can be used as as alternative methods of, OR in combination with traditional western medicine.</p>
+
+                    <p>Self-advocacy for one's physical/emotional health should be the hope for our future as a human collective. Allowing oneself to experience risk for disease, misery and pain in any form is an outdated, archaic concept that no longer serves us on our planet. My own journey of facing inner shadows and suffering within silence only fueled desire for creating this network. We are each individually divine souls within human form within the Universe. This network welcomes ALL forms of diversity within light, safety and love. By sharing my story, I intend to help you find the same encouragement in breaking the silence of emotional pain without having to fear ridicule.</p>
+
+                    We've all heard the saying: "God works in mysterious ways." Growing up as an only child in a strict Irish-Catholic household is something I am incredibly grateful for. I believe that we each pick our parents before entering this life. Our souls fully understand the "contracts" that we put ourselves into for specific experiences. Upon birth these early pre-life memories become hidden and mostly unaccessible within our subconscious memory. 
+
+                    <p>Our early childhood experiences shape the individuals we become as adults navigated by our higher selves, or rather the parts of our soul consciousness that remain within God (or whomever you may or may not refer to as your higher power). Energetically, our higher selves are connected to our physical bodies. This allows communication with angels, saints and other spirutal guides who can intervene and protect us within the divine light.</p>
+
+                    Do you remember having imaginary friends while you were a young child? Mostly likely the answer is no. As soon as we mentioned these people, places and experiences to our parents they responded with the words "that person isn't real, your mind is playing tricks on you". Or if we have a bad dream we're often reassured that it wasn't real and doesn't mean anything. Most of cannot remember these early childhood experiences, as the lack of validity from our parents causes various forms of unavoidable trauma.</p>
+
+                    <p>With an incredibly vivid memory of my childhood, I am blessed rather than cursed. Despite being criticized for being "too emotionally sensitive" throughout my life, I ultimately found this to be gift. The words "crazy", "psychotic" and "loony" to an empath can be debilitating when told such by a loved one. Ranging on a broad spectrum, every human will experience trauma within many forms within their childhood. Sticks and stones may break our bones, but words will unconsciously haunt us forever.</p>
+
+                    <p>Four years ago, I was a proudly outspoken Atheist. Due my own struggles in spirtual confusion, I took no shame in plastering these doubts over social media. My brain became addicted to the rush of spreading negativity and disputing others' posts promoting any form of Judeo-Christian beliefs. For reasons I didn't understand at the time, I was psychologically addicted to back and forth arguments and adreneline rushes fueled through angry debates behind my phone screen. Once blindsided by the ultimate curveball of tragedy in 2016, I turned to prayer for survival. Divorce and custody battles as a new single mother tested me beyond ways very few could survive.</p>
+
+                    <p> The face of my young child forced me to struggle through a series of job loss, unemployment, and embarrasment from turning to welfare services. This became an ongoing cycle despite my despiration to fake it until I made it. Having worked steadily since the age of 14, I couldn't understand <em>why</em> I found myself living a reality I never imagined.</p>
+
+                    <p>Crying myself to sleep with negative self-thoughts became a normal practice. Chronic dental issues began causing infections and several tooth extractions. I was also diagnosed with a rare autoimmune thyroid disorder. The anxiety became so debilitating to the point my ears heard the words "your at-will employment is being terminated" for the last time. The mask of trying to hide my deteriorated emotional state failed me continuously throughout external reality. Despite ongoing therapy and prescription medications, I couldn't find an answer. Self-help efforts began to feel like a waste of time and energy I no longer could muster.</p>
+
+                    </p>2019 was a year was my last cold dose of reality, and yet another round of unemployment threatened continued financial struggle, isolation and resistance. Having hit rock bottom, I decided to seek a green alternative physician to discuss the option of medical cannibus for relief. Attending this appointment on Halloween, I was skeptical having spent $300 a day before the rent was due. With no guarantee of where my future income stream would come from, I was in a full-blown panic attack when the doctor entered the room that morning. Needless to say I was relieved when this stranger spent 45 minutes explaining how various cannbis strains would most likely prevent my need for higher doses of anti-anxiety prescriptions. He explained additional benefits likely to relieve my physical health struggles as well.</p>
+
+                    <p>Impressed with the medical benefits backed by peer-reviewed science, I began visiting a local medical dispensary once my state issued Medical Marijuana card arrived in the mail. Within the first two months I was astounded how quickly my emotional and phyical health improved. Upon the arrival of COVID-19, I was able to smile through the shutdown of my last employer with a generous severance package until the enhancement kicked in.</p>
+
+                    <p>The pandemic of 2020 fueled my inpsiration to use state lockdown as an opportunity
+                    to share these experiences with others. As a lightbearer, it is my hope to bring forth my experience of enlightenment and love to you and for the future of our planet. Breaking repeating cycles of toxicity within our lives can bring us to our breaking points, to say the least. I hope you find this judgment free-network to bring support, blessings and encouragement to your life - both in the present and whatever future may bring.</p>
+
+                    <p><q>"I am not what happened to me, I am what I <b>choose</b> to become.</q> -Carl Jung</p>"
+
+
+
+                    <div class="row home_align">
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="sign_circle bg-aries">
+                                <img src="images/aries-sign.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-aries signs_clr font16">Aries</span><br>
+                                    <span class="signtext_clr font12">Mar 21 - Apr 19</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="sign_circle bg-taurus">
+                                <img src="images/taurus.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-taurus signs_clr font16">Taurus</span><br>
+                                    <span class="signtext_clr font12">Apr 20 - May 20</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="sign_circle bg-gemini">
+                                <img src="images/gemini.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-gemini signs_clr font16">Gemini</span><br>
+                                    <span class="signtext_clr font12">May 21 - Jun 20</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="sign_circle bg-cancer">
+                                <img src="images/cancer.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-cancer signs_clr font16">Cancer</span><br>
+                                    <span class="signtext_clr font12">Jun 21 - Jul 22</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="sign_circle bg-leo">
+                                <img src="images/leo.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-leo signs_clr font16">Leo</span><br>
+                                    <span class="signtext_clr font12">Jul 23 - Aug 22</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="sign_circle bg-virgo">
+                                <img src="images/virgo.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-virgo signs_clr font16">Virgo</span><br>
+                                    <span class="signtext_clr font12">Aug 23 - Sep 22</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="sign_circle bg-libra">
+                                <img src="images/libra.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-libra signs_clr font16">Libra</span><br>
+                                    <span class="signtext_clr font12">Sep 23 - Oct 22</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="sign_circle bg-scorpio">
+                                <img src="images/scorpio.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-scorpio signs_clr font16">Scorpio</span><br>
+                                    <span class="signtext_clr font12">Oct 23 - Nov 21</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="sign_circle bg-sagittarius">
+                                <img src="images/sagittarius.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-sagittarius signs_clr font16">Sagittarius</span><br>
+                                    <span class="signtext_clr font12">Nov 22 - Dec 21</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="sign_circle bg-capricorn">
+                                <img src="images/capricorn.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-capricorn signs_clr font16">Capricorn</span><br>
+                                    <span class="signtext_clr font12">Dec 22 - Jan 19</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix visible-xs-block"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="sign_circle bg-aquarius">
+                                <img src="images/aquarius.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-aquarius signs_clr font16">Aquarius</span><br>
+                                    <span class="signtext_clr font12">Jan 20 - Feb 18</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 wow fadeInDown pic_margin" data-wow-duration="1s"
+                             data-wow-delay="0.2s">
+                            <div class="sign_circle bg-pisces">
+                                <img src="images/pisces.png" alt="image-missing" class="rotate">
+                            </div>
+                            <a href="signs_single_post.html" class="main">
+                                <div class="sign_card text-center signs_bg">
+                                    <span class="text-pisces signs_clr font16">Pisces</span><br>
+                                    <span class="signtext_clr font12">Feb 19 - Mar 20</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 home_margin">
+                <h2 class="text-white font35">Let's start with your FREE astrological birthchart</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-3 elements_desc">
+                        <label class="text-white font18" for="name"> My Name is...:</label>
+                        <input type="text" id="name" class="bg-white form-control"
+                               placeholder="First name">
+                    </div>
+                    <div class="col-md-2 col-sm-2 elements_desc">
+                        <label class="text-white font18" for="zip">Born in:</label>
+                        <input type="city" id="" class="bg-white form-control">
+                    </div>
+                    <div class="col-md-2 home_dob col-sm-3 elements_desc">
+                        <label class="text-white font18">My Birthday:</label>
+                        <select class="home_select form-control bg-white">
+                            <option value="">Choose</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 col-sm-2 home_dob elements_desc home_date">
+                        <!--<label></label>-->
+                        <select class="home_select1 form-control bg-white">
+                            <option value="">Choose</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2 col-sm-2 home_dob elements_desc home_date">
+                        <!--<label></label>-->
+                        <select class="home_select2 form-control bg-white">
+                            <option value="">Choose</option>
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="btn_adjust">
+                            <a href="index.html" class="btn btn-info btn-md btn_align">Show My Matches
+                                <i class="fa fa-search btn_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 m-t-40">
+                <h1 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">Top Stories</h1>
+                <hr class="hr_margin">
+                <div class="row common_margin">
+                    <div class="col-xs-12 font16">
+                        </p>
+                        
+                            
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 m-t-40">
+                <h1 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">Card of the Day</h1>
+                <hr>
+                <div class="row common_margin">
+                    <div class="col-md-4 col-sm-3 col-xs-4 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <img src="images/card.jpg" class="img-responsive p-t-5" alt="card missing"/>
+                    </div>
+                    <div class="col-md-8 col-sm-9 col-xs-8 games_content_align">
+                        <h4 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">THE CHARIOT</h4>
+                        <p class="text-info wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s"> As a priest,
+                            the Pope or the best Hierophant, represents all those
+                            traditional values and morals of development. He is the wisely teacher / counselor
+                            guiding the ones who won’t give up or the ones who are not the...
+                        </p>
+                        <a href="signs_single_post.html" class="text-primary home_view">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+<!--=============== Body Section End ===============-->
+<!--=============== Footer Section Start ===============-->
+<section class="footer_texture m-t-65">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-12 footer_section_align">
+                <span class="text-white font18"> </span><span class="text-primary font24"> <span
+                    class="text-white font18">,</span> </span><span
+                    class="text-white font18"> </span><span class="text-primary font24">  </span> <span
+                    class="text-white font18"> </span>
+            </div>
+            <div class="col-md-6 col-xs-12 footer_section_align">
+
+                <form method="post" action="subscribe.php" id="subscribe">
+                    <div class="form-group">
+
+                        <div class="input-group label_align">
+
+                            <input type="email" class="form-control input-lg input_email sub_input" placeholder="Email Address" name="email" id="email">
+
+                            <span class="input-group-addon subscribe_align">
+        <button type="submit" class="subscribe btn btn-sm ">
+                        <span>
+                            <img src="images/mail-sent.png" alt="mailicon">
+                        </span>
+                            </button>
+                        </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=============== Footer Section End ===============-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="vendors/select2/js/select2.min.js"></script>
+<script src="vendors/swiper/js/swiper.min.js"></script>
+<script src="vendors/wow/js/wow.min.js"></script>
+<script src="vendors/sweetalert2/js/sweetalert2.min.js"></script>
+<!--=============== Custom Js Start ===============-->
+<script src="js/custom.js"></script>
+<!--=============== Custom Js End ===============-->
+</body>
+</html>
